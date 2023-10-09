@@ -1,4 +1,8 @@
 # U.S. Employment Carbon Footprints
+## Employment Vulnerability to the Energy Transition (E-VET) tool
+The E-VET tool, an open, online data visualization and exploration portal, can be used to navigate the data in this repository: https://kailingraham.github.io/ecf-vis-tool/
+
+## Repository overview
 This repository contains the output datafiles from the U.S. Employment Carbon Footprints project conducted by MIT's Center for Energy & Environmental Policy Research (CEEPR). These files represent an open dataset describing the employment vulnerability of U.S. counties as measured by their employment carbon footprint (ECF), a measure of the reliance of jobs in a county on fossil fuels. The ECFs account for emissions across all “scopes” of the energy value chain, including direct fossil fuel combustion as well as the indirect emissions that occur due to electricity consumption and the production of fossil fuels that are burnt elsewhere. The dataset covers the following sectors: agriculture, construction, manufacturing, mining, commercial sectors, and fossil-fuel power generation. These sectors account for 86% of total U.S. employment and 94% of U.S. carbon emissions outside of the transportation sector. 
 
 ## File formats
