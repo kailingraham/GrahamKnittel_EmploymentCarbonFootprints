@@ -11,9 +11,10 @@ Each datafile contains data on total "effective" emissions (including direct and
 For most fields, a minimum, maximum, and average value are reported based on the range of potential passthrough rates used in the analysis. These are indicated by the suffix of the field i.e. "_min", "_max", "_avg". The average values ("_avg") are used in all CEEPR analysis from this dataset.
 
 ## File naming
-- ECF_final.csv - describes the overall ECF of each country across all covered sectors and scopes.
+- ECF_total.csv - describes the overall ECF of each county, aggregated across all covered sectors and scopes.
 - ECF_sector.csv - describes the ECF across all scopes for each covered sector, for each county.
 - ECF_scope1.csv - describes the ECF of each county, across all sectors, when only "Scope 1" emissions (those from direct combustion of fossil fuels) are considered.
 - ECF_scope2.csv - describes the ECF of each county, across all sectors, when only "Scope 2" emissions (those associated with the consumption of electricity) are considered.
 - ECF_scope3.csv - describes the ECF of each county, across all sectors, when only "Scope 3" emissions (those embedded in fossil fuels produced by the county) are considered. Note that the true definition of Scope 3 emissions includes all indirect emissions in a firm's value chain, however for the purposes of this analysis we consider only the emissions embedded in coal, oil and natural gas produced by a firm when determining its Scope 3 emissions.
 - ECF_sector_scope.csv - a breakdown of ECFs for each scope within each covered sector.
+- ECF_total_state.csv - describes the overall ECF of each state.
